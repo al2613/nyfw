@@ -32,6 +32,9 @@ class Dashboard extends React.Component {
 
     return this.state.verified ? (
       <TitleWrapper>
+        <ul>
+          <a href="/"> Home</a>
+        </ul>
         <h1>Welcome</h1>
         <h2>View Code Snippets</h2>
       </TitleWrapper>
